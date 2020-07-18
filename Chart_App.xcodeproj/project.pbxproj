@@ -13,6 +13,8 @@
 		0454FEC824C2F5480019DA4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0454FEC624C2F5480019DA4F /* Main.storyboard */; };
 		0454FECA24C2F54C0019DA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0454FEC924C2F54C0019DA4F /* Assets.xcassets */; };
 		0454FECD24C2F54C0019DA4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0454FECB24C2F54C0019DA4F /* LaunchScreen.storyboard */; };
+		0454FED524C307A10019DA4F /* DonutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454FED424C307A10019DA4F /* DonutViewController.swift */; };
+		0454FED724C321E60019DA4F /* PieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454FED624C321E60019DA4F /* PieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0454FEC924C2F54C0019DA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0454FECC24C2F54C0019DA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0454FECE24C2F54C0019DA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0454FED424C307A10019DA4F /* DonutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutViewController.swift; sourceTree = "<group>"; };
+		0454FED624C321E60019DA4F /* PieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				0454FEC024C2F5480019DA4F /* AppDelegate.swift */,
 				0454FEC224C2F5480019DA4F /* SceneDelegate.swift */,
 				0454FEC424C2F5480019DA4F /* ViewController.swift */,
+				0454FED424C307A10019DA4F /* DonutViewController.swift */,
+				0454FED624C321E60019DA4F /* PieViewController.swift */,
 				0454FEC624C2F5480019DA4F /* Main.storyboard */,
 				0454FEC924C2F54C0019DA4F /* Assets.xcassets */,
 				0454FECB24C2F54C0019DA4F /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0454FEC524C2F5480019DA4F /* ViewController.swift in Sources */,
+				0454FED524C307A10019DA4F /* DonutViewController.swift in Sources */,
 				0454FEC124C2F5480019DA4F /* AppDelegate.swift in Sources */,
+				0454FED724C321E60019DA4F /* PieViewController.swift in Sources */,
 				0454FEC324C2F5480019DA4F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
